@@ -1,0 +1,7 @@
+﻿# LMS
+__pycache__/
+*.pyc
+# demo data
+LMS/db/sample_data/*.csv
+# local notebooks
+*.ipynb_checkpoints/
