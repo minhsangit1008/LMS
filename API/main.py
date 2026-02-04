@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from .student import router as student_router
 from .teacher_course import router as teacher_course_router
 from .teacher_overall import router as teacher_overall_router
+from .mentor import router as mentor_router
 
 app = FastAPI(title="LMS API", version="0.1.0")
 
@@ -15,3 +16,4 @@ def health():
 app.include_router(student_router)
 app.include_router(teacher_course_router)
 app.include_router(teacher_overall_router)
+app.include_router(mentor_router)

@@ -41,6 +41,7 @@ curl http://127.0.0.1:8000/health
 curl "http://127.0.0.1:8000/student/1/dashboard?course_id=1"
 curl "http://127.0.0.1:8000/teacher/course/1/dashboard"
 curl "http://127.0.0.1:8000/teacher/1/dashboard"
+curl "http://127.0.0.1:8000/mentor/86/dashboard"
 ```
 
 ## Notes
